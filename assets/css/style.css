@@ -5,11 +5,13 @@
 }
 
 body {
-    background-color: #13263c;
+    background-color: #1A1B23;
     color: #ffffff;
     font-family: 'IPAMincho', sans-serif;
 }
-
+.landing-dark-bg {
+    background-color: #1A1B23 !important;
+}
 h1, h2, h3, h4, h5, h6 {
     color: #ffffff;
 }
@@ -50,39 +52,42 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
 }
 
-
-.tb-color-white {
-    background-color: #ffffff;
+.td-white {
+    background-color: #ffffff !important;
 }
-.tb-color-light-blue {
-    background-color: #d9e1f2;
+.td-light-blue {
+    background-color: #bfe2ff  !important;
 }
-.tb-color-blue {
-    background-color: #8ea9db;
+.td-blue {
+    background-color: #469cf5 !important;
 }
-.tb-color-dark-blue {
-    background-color: #305496;
+.td-dark-blue {
+    background-color: #305496 !important;
 }
-.tb-color-pink {
-    background-color: #ff9999;
+.td-pink {
+    background-color: #ff9999!important;
 }
-.tb-color-red {
-    background-color: #ff5050;
+.td-red {
+    background-color: #ff5050 !important;
 }
-.tb-color-gray {
-    background-color: #bfbfbf;
+.td-gray {
+    background-color: #bfbfbf !important;
 }
 
 .arrow_1 {
-    top: 55px;
-    left: -17px;
+    margin-top: 3px;
+    left: 24px;
+}
+.arrow_1_2 {
+    margin-top: 3px;
+    left: 77px;
 }
 .arrow_2 {
     margin-top: 3px;
-    left: 131px;
+    left: 224px;
 }
 .arrow_3 {
-    top: 219px;
+    top: 153px;
     left: -17px;
 }
 .mouse-pinter i {
